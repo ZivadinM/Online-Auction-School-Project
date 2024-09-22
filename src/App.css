@@ -1,0 +1,1001 @@
+/** @format */
+@import url(https://db.onlinewebfonts.com/c/9272106299785ee83a43579552f4239c?family=Prumo+Display+W00+Medium);
+
+@font-face {
+	font-family: "Prumo Display W00 Medium";
+	src: url("https://db.onlinewebfonts.com/t/9272106299785ee83a43579552f4239c.eot");
+	src: url("https://db.onlinewebfonts.com/t/9272106299785ee83a43579552f4239c.eot?#iefix")
+			format("embedded-opentype"),
+		url("https://db.onlinewebfonts.com/t/9272106299785ee83a43579552f4239c.woff2")
+			format("woff2"),
+		url("https://db.onlinewebfonts.com/t/9272106299785ee83a43579552f4239c.woff")
+			format("woff"),
+		url("https://db.onlinewebfonts.com/t/9272106299785ee83a43579552f4239c.ttf")
+			format("truetype"),
+		url("https://db.onlinewebfonts.com/t/9272106299785ee83a43579552f4239c.svg#Prumo Display W00 Medium")
+			format("svg");
+}
+* {
+	margin: 0;
+	box-sizing: border-box;
+}
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	color: black;
+}
+.Heroo {
+	background-image: url(assets/HeroBackground.png);
+	background-size: cover;
+	padding: 0 140px;
+	height: 100vh;
+}
+.Logo {
+	display: none;
+	display: flex;
+	align-items: center;
+	font-size: 52px;
+	gap: 10px;
+}
+.Logo a {
+	text-decoration: none;
+	color: white;
+	font-family: "Prumo Display W00 Medium";
+}
+.Nesto {
+	text-transform: capitalize;
+}
+nav {
+	padding-top: 20px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: white;
+}
+
+.nav-wraper {
+	display: flex;
+	font-size: 18px;
+	gap: 15px;
+}
+
+.nav-wraper h3 {
+	font-family: "Montserrat";
+	font-weight: 200;
+}
+.nav-wraper h3 a {
+	text-decoration: none;
+	color: #fff;
+	transition: 0.6s;
+}
+.about {
+	background: rgba(160, 191, 197, 0.17);
+	padding: 10px 140px;
+}
+.about h3 a {
+	color: #16202c;
+}
+.about .Logo a {
+	color: #16202c;
+}
+.dropdown {
+	display: none;
+	flex-direction: column;
+	cursor: pointer;
+}
+
+.dropdown .bar {
+	width: 25px;
+	height: 3px;
+	background-color: white;
+	margin: 4px 0;
+}
+.dropdown .barsite {
+	width: 25px;
+	height: 3px;
+	background-color: #16202c;
+	margin: 4px 0;
+}
+.nav-wraper h3 a:hover {
+	font-weight: 500;
+}
+
+.HeroTekst h1 {
+	font-size: 107px;
+	margin-top: 100px;
+	margin-bottom: 70px;
+	color: white;
+	font-family: "Prumo Display W00 Medium";
+	font-weight: normal;
+}
+.HeroTekst p {
+	font-size: 24px;
+	max-width: 580px;
+	font-family: "Montserrat";
+	color: white;
+}
+.HeroTekst span {
+	color: #be8a63;
+}
+
+.Hero {
+	display: flex;
+	max-width: 780px;
+}
+.HeroTekst button {
+	border: solid 0;
+	border-radius: 56px;
+	font-family: "Montserrat";
+	width: 185px;
+	height: 50px;
+	font-size: 24px;
+	background-color: #2d3b4b;
+	color: white;
+	/* margin-top: 100px; */
+	margin-bottom: 100px;
+	cursor: pointer;
+}
+.HeroTekst button a {
+	text-decoration: none;
+	color: white;
+}
+.Bidding {
+	background-color: #16202c;
+	background-image: url(assets/Biding.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position-x: -240px;
+	color: white;
+	padding: 0 140px;
+}
+
+.Bidding h6 {
+	text-align: center;
+	margin: 0;
+	font-family: "montserrat";
+	padding-top: 100px;
+	font-size: 20px;
+}
+
+.Bidding h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 64px;
+	font-family: "Prumo Display W00 Medium";
+	font-weight: normal;
+}
+.TextWraper {
+	max-width: 410px;
+	margin-left: auto;
+	margin-top: 125px;
+	padding-bottom: 100px;
+}
+.TextWraper h3 {
+	font-size: 43px;
+	margin-bottom: 30px;
+	font-family: "Prumo Display W00 Medium";
+	margin-top: 40px;
+}
+
+.TextWraper p {
+	font-size: 19px;
+	font-family: "montserrat";
+	margin: 0;
+}
+
+.Type {
+	background-color: rgba(160, 191, 197, 0.17);
+	padding: 0 140px;
+}
+
+.Header h6 {
+	text-align: center;
+	margin: 0;
+	font-family: "montserrat";
+	padding-top: 100px;
+	font-size: 20px;
+}
+.Header h1 {
+	text-align: center;
+	margin: 0;
+	font-size: 64px;
+	font-family: "Prumo Display W00 Medium";
+	font-weight: normal;
+}
+.Header span {
+	color: #be8a63;
+}
+.Header {
+	margin-bottom: 100px;
+}
+.cardwraper {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 100px;
+	justify-content: center;
+}
+.card1 {
+	width: 1000px;
+	height: 500px;
+}
+.card {
+	padding: 25px;
+	width: 300px;
+	height: 417px;
+	text-decoration: none;
+	color: black;
+}
+.card1 {
+	width: 500px;
+	height: 500px;
+}
+.card {
+	display: flex;
+	flex-direction: column;
+	background-color: white;
+	transition: 500ms !important;
+}
+.card:nth-child(n) .icon img {
+	background-color: #f87d20a9;
+	padding: 12px;
+	width: 66px;
+}
+
+.amazon_card:nth-child(n) .icon img {
+	background-color: rgb(97, 97, 97);
+}
+.card1 .icon1 img {
+	width: 100px !important;
+}
+.card .icon1 img {
+	transition: 1s;
+}
+.card1 .icon1 img:hover {
+	width: 200px !important;
+}
+.card:nth-child(n) .icon1 img {
+	padding: 5px;
+}
+
+.card:nth-child(n):hover {
+	background-color: #5e310f;
+	color: white;
+}
+.amazon_card:nth-child(n):hover {
+	background-color: #ff9900;
+	color: white;
+}
+.card:nth-child(n):hover p {
+	color: white;
+}
+.card:nth-child(n):hover h3 {
+	color: white;
+	font-weight: normal;
+}
+.ebay_card:nth-child(n):hover {
+	background-color: #103c6c;
+}
+
+.card:nth-child(2n):hover {
+	background-color: #16202c;
+	color: white;
+}
+.amazon_card:nth-child(2n):hover {
+	background-color: #131313;
+	color: white;
+}
+.card:nth-child(2n) .icon img {
+	background-color: #a0bfc584;
+	padding: 5px;
+}
+.amazon_card:nth-child(2n) .icon img {
+	background-color: #ff9900;
+}
+.ebay_card:nth-child(n) .icon img {
+	background-color: #0066d27d;
+}
+.ebay_card:nth-child(2n) .icon img {
+	background-color: #13131349;
+}
+
+.amazon_card_wrapper {
+	background-color: #ff990026;
+}
+.ebay_card:nth-child(2n):hover {
+	background-color: #e53238;
+}
+
+.ebay_card_wrapper .Header h1 {
+	color: #0064d2;
+}
+.card h3 {
+	font-size: 32px;
+	font-family: "Prumo Display W00 Medium";
+	margin-bottom: 40px;
+	text-decoration: none;
+	color: #000;
+	text-decoration: none;
+}
+.card p {
+	font-size: 15px;
+	font-family: "montserrat";
+	color: #000;
+	text-decoration: none;
+}
+
+.Site {
+	padding: 0 140px;
+	background-color: #16202c;
+
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.SiteWraper {
+	display: flex;
+	padding: 100px 0;
+}
+.imgoverlay {
+	position: relative;
+}
+.imgoverlay .after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	display: block;
+	background: linear-gradient(
+		0deg,
+		rgba(0, 0, 0, 0.21) 0%,
+		rgba(248, 125, 32, 0.21) 100%
+	);
+}
+.imgoverlay img {
+	max-width: 370px;
+}
+.line {
+	width: 6px;
+	height: 350px;
+	background-color: white;
+}
+.SiteHeader h6 {
+	margin: 0;
+	font-family: "montserrat";
+	font-size: 20px;
+}
+.SiteHeader h1 {
+	margin: 0;
+	max-width: 690px;
+	font-size: 64px;
+	font-family: "Prumo Display W00 Medium";
+	text-transform: capitalize;
+	font-weight: normal;
+}
+.CircleCardWraper {
+	display: flex;
+	gap: 20px;
+	justify-content: space-evenly;
+}
+.wraperr {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+.sitetextwraper {
+	margin-left: 50px;
+	color: white;
+}
+.SiteHeader p {
+	max-width: 580px;
+	font-size: 20px;
+	font-family: "montserrat";
+	font-weight: 200;
+}
+.SiteHeader {
+	margin-bottom: 55px;
+}
+.CircleCard {
+	border: 4px solid white;
+	border-radius: 100px;
+	min-height: 150px;
+	max-height: 200px;
+	min-width: 150px;
+	max-width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+Link .CardWraper p {
+	text-decoration: none !important;
+}
+.CardWraper p {
+	color: white;
+	text-transform: capitalize;
+	text-align: center;
+	font-family: "montserrat";
+	font-size: 20px;
+	font-weight: 500;
+	margin-bottom: 0;
+	text-decoration: none !important;
+}
+.Features .Header {
+	color: #141f21;
+	margin-bottom: 20px;
+}
+.Features .Header span {
+	color: #be8a63;
+}
+.Features {
+	padding: 0 140px;
+	background-color: white;
+}
+.FeaturesWraper {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 100px;
+}
+
+.feature {
+	display: flex;
+	height: 90px;
+	border-bottom: 2px solid #141f21;
+	color: #000;
+	font-size: 32px;
+	font-family: "montserrat";
+	margin-right: 20px;
+	padding-left: 2px;
+	padding: 0 20px;
+	width: 800px;
+	align-items: center;
+	border-left: 5px solid #d9d9d9;
+}
+.feature p {
+	margin: 0;
+}
+.featureimg img {
+	max-width: 350px;
+}
+.featureimg .after {
+	background: #254c5335;
+}
+.Futter {
+	display: flex;
+	background-color: #16202c;
+	justify-content: space-between;
+	padding: 50px 140px;
+	align-items: center;
+	font-family: "montserrat";
+}
+.center {
+	display: flex;
+	flex-direction: column;
+	font-weight: 200;
+}
+.center a {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.menu {
+	padding-bottom: 20px;
+	font-weight: 600;
+}
+.right {
+	font-size: 20px;
+	font-weight: 600;
+	color: white;
+	width: 180px;
+}
+.search {
+	max-width: 210px;
+	height: 45px;
+	background-color: #d9d9d9;
+	border-radius: 91px;
+	border: none;
+	margin: 0;
+}
+.searchitem {
+	margin: 0;
+	width: 45px;
+	height: 45px;
+	background-color: #3b4d62;
+	border-radius: 100px;
+	margin-left: auto;
+	border: none;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.searchitem img {
+	width: 20px;
+	padding-left: 4px;
+}
+.v2 {
+	padding: 0;
+	padding-top: 50px;
+	padding-bottom: 100px;
+	align-items: center;
+}
+.sample-slider .swiper-wrapper {
+	transition-timing-function: linear;
+}
+.ve {
+	width: 800px !important;
+}
+.sample-slider {
+	height: 500px;
+}
+.v23 {
+	padding: 0;
+}
+.HeroV2 {
+	padding: 0 140px;
+	background-color: #131313;
+	background-image: url("../src/assets/Group 27.png");
+	background-repeat: no-repeat;
+	background-position-y: bottom;
+	background-position-x: right;
+
+	height: 100vh;
+}
+.HeroV2header {
+	display: flex;
+	align-items: center;
+	margin: auto;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: "montserrat";
+	font-weight: 800;
+	color: #ff9900;
+	justify-content: center;
+}
+.HeroV2header h3 {
+	font-weight: 800;
+	margin: 0;
+	color: #131313;
+	text-shadow: -1px 1px 0 #fff, 1px 1px 0 #fff, 1px -1px 0 #fff,
+		-1px -1px 0 white;
+	margin-top: 150px;
+	text-align: right;
+}
+.HeroV2header span {
+	color: white;
+}
+.amazon {
+	display: flex;
+	font-size: 100px;
+	justify-content: end;
+	align-items: center;
+}
+.amazon h1 {
+	font-weight: 800;
+	margin: 0;
+	color: #ff9900;
+}
+.bid {
+	font-size: 40px;
+	border: 6px solid #ff9900;
+	display: flex;
+	justify-content: center;
+	border-radius: 50px;
+	width: 182px;
+}
+.bid p {
+	margin: 0;
+	padding: 20px 40px;
+}
+.About {
+	text-align: center;
+	padding: 100px 140px;
+	background-color: #ff9900;
+}
+
+.pretitle {
+	font-size: 24px;
+	margin: 0;
+	font-family: "Montserrat";
+	color: #131313;
+	font-weight: 700;
+}
+
+.About h1 {
+	font-size: 107px;
+	margin-bottom: 70px;
+	color: white;
+	font-family: "Prumo Display W00 Medium";
+	font-weight: normal;
+	margin: 0;
+}
+.AboutText {
+	margin: auto;
+	font-size: 34px;
+	font-family: "Montserrat";
+	text-transform: lowercase;
+	color: white;
+	width: 1000px;
+	font-weight: 400;
+	margin-top: 70px;
+}
+
+.Amazon {
+	background-color: #131313;
+}
+.Amazon .searchitem {
+	background-color: #ffbd5a;
+}
+
+.eBay .amazon h1 {
+	text-transform: none;
+}
+.eBay .HeroV2header h1 {
+	color: #0064d2;
+}
+.eBay .HeroV2wraper h3 span {
+	color: #e53238;
+	text-shadow: -1px 1px 0 #e53238, 1px 1px 0 #e53238, 1px -1px 0 #e53238,
+		-1px -2px 0 #e53238;
+}
+.eBay .HeroV2wraper h3 {
+	color: white;
+	text-shadow: -1px 1px 0 #000, 1px 1px 0 #000, 1px -1px 0 #000,
+		-1px -2px 0 black;
+}
+.eBay {
+	background-color: #ffffff;
+	background-image: url("assets/Group 47.png");
+}
+.eBay .bid {
+	border-color: #000;
+}
+.eBay .bid p {
+	color: #000;
+}
+.eBay .Logo a {
+	color: black;
+}
+.eBay .About {
+	background-color: #e6e6e6;
+}
+.eBay .About h1 {
+	color: #86b817;
+}
+.eBay .About p {
+	color: black;
+}
+.eBay .searchitem {
+	background-color: #0064d2;
+}
+.eBay .Futter {
+	background-color: #fff;
+}
+.Amazon .Futter {
+	background-color: #131313;
+}
+.eBay .center a {
+	color: #000;
+}
+.eBay .right {
+	color: #000;
+}
+.test {
+	display: none;
+}
+.card1 {
+	cursor: auto;
+}
+.test {
+	display: none;
+}
+.card1 {
+	cursor: auto;
+}
+.Logo2 {
+	display: none;
+}
+
+.Example {
+	text-align: center;
+	background-color: #e1efff;
+}
+.Example .Header {
+	margin: 0;
+	padding: 100px 70px;
+}
+.Example .AboutText {
+	text-transform: none;
+	text-align: left;
+	color: black;
+}
+
+.eBay .nav-wraper h3 a {
+	color: black;
+}
+.eBay .dropdown .bar {
+	background-color: black;
+}
+@media screen and (max-width: 1340px) {
+	.Heroo {
+		padding: 0 10%;
+		background-color: #16202c;
+		background-image: none;
+		flex-direction: column;
+		align-items: center;
+	}
+	.eBay .nav-wraper .dropdown .bar {
+		background-color: black;
+	}
+	.HeroTekst h1 {
+		margin: 10% 0;
+		font-size: 80px;
+		text-align: center;
+	}
+	.Logo {
+		font-size: 2rem;
+	}
+	.nav-wraper {
+		display: none;
+	}
+	.HeroTekst p {
+		font-size: 20px;
+		text-align: center;
+	}
+	.HeroTekst button {
+		font-size: 20px;
+		width: 200px;
+	}
+	.HeroTekst {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.Logo1 {
+		display: none;
+	}
+	.Bidding {
+		padding: 0 10%;
+	}
+	.Bidding h1 {
+		font-size: 50px;
+	}
+	.TextWraper p {
+		font-size: 20px;
+	}
+	.Type .Header h1 {
+		font-size: 50px;
+	}
+	.Type {
+		padding: 0 10%;
+	}
+	.Site {
+		padding: 0 10%;
+	}
+
+	.SiteWraper {
+		flex-wrap: wrap;
+		justify-content: center;
+		text-align: center;
+		padding: 0;
+		padding-bottom: 100px;
+	}
+	.SiteHeader h1 {
+		font-size: 40px;
+		max-width: none;
+	}
+	.imgoverlay img {
+		max-width: 250px;
+	}
+	.sitetextwraper {
+		margin: 0;
+		margin-top: 20%;
+	}
+	.sitetextwraper p {
+		margin-top: 20%;
+		text-align: left;
+	}
+	.line {
+		display: none;
+	}
+	.CircleCardWraper {
+		justify-content: center;
+		flex-wrap: wrap;
+		gap: 30px;
+	}
+	.sitetextwraper p {
+		text-align: center;
+	}
+	.imgoverlay .featureimg {
+		display: none;
+	}
+	.imgoverlay img {
+		display: none;
+	}
+	.feature {
+		width: inherit;
+		font-size: 24px;
+	}
+	.Features {
+		padding: 0 10%;
+	}
+	.FeaturesWraper {
+		display: block;
+		margin-top: 20%;
+	}
+	.feature {
+		display: flex;
+		justify-content: center;
+	}
+	.Futter {
+		padding: 0 10%;
+		flex-wrap: wrap;
+		gap: 50px;
+		justify-content: center;
+		padding: 20% 0;
+	}
+	.search {
+		max-width: 250px;
+	}
+	.SiteHeader p {
+		max-width: none;
+	}
+	.HeroV2 {
+		padding: 0 10%;
+		background-image: none;
+		height: auto;
+	}
+	.amazon h1 {
+		font-size: 14vw;
+	}
+	.HeroV2header h3 {
+		font-size: 5vw;
+	}
+
+	.bid {
+		font-size: 3vw;
+		width: inherit;
+	}
+	.bid p {
+		padding: 1vw 3vw;
+	}
+	.HeroV2header {
+		padding-bottom: 240px;
+		background-position-x: center;
+	}
+	.About {
+		padding: 20% 10%;
+	}
+	.AboutText {
+		width: inherit;
+		max-width: 1000px;
+		font-size: 20px;
+	}
+	.About h1 {
+		font-size: 80px;
+	}
+	.card:nth-child(n) {
+		background-color: #5e310f;
+		color: white;
+	}
+	.amazon_card:nth-child(n) {
+		background-color: #ff9900;
+	}
+
+	.ebay_card:nth-child(n) {
+		background-color: #103c6c;
+	}
+
+	.card:nth-child(n) p {
+		color: white;
+	}
+	.card:nth-child(n) h3 {
+		color: white;
+		font-weight: normal;
+	}
+	.card:nth-child(2n) {
+		background-color: #16202c;
+		color: white;
+	}
+	.amazon_card:nth-child(2n) {
+		background-color: #131313;
+	}
+	.nav-wraper h3:last-child {
+		margin-bottom: 30px;
+	}
+	.ebay_card:nth-child(2n) {
+		background-color: #e53238;
+	}
+}
+
+@media (max-width: 1340px) {
+	nav {
+		flex-direction: column;
+		padding: 0;
+	}
+	.about h3 a {
+		color: white;
+	}
+	.dropdown .barsite {
+		background-color: white;
+	}
+	.nav-wraper {
+		display: none;
+		flex-direction: column;
+		width: 100%;
+		background: rgba(22, 32, 44, 0.7);
+		backdrop-filter: blur(10px);
+
+		position: absolute;
+		top: 60px;
+		left: 0;
+		text-align: center;
+	}
+
+	.nav-wraper.open {
+		display: flex;
+		top: 0;
+	}
+
+	.dropdown {
+		margin-top: 20px;
+		margin-bottom: 20px;
+		display: flex;
+		align-items: center;
+	}
+	.Logo {
+		justify-content: center;
+	}
+}
+
+@media (max-width: 1340px) {
+	.Heroo {
+		display: flex;
+		height: 80vh;
+	}
+	.Amazon .nav-wrapper {
+		background: rgba(19, 19, 19, 0.7);
+		backdrop-filter: blur(10px);
+	}
+	.eBay .nav-wrapper {
+		background: rgba(255, 255, 255, 0.7);
+		backdrop-filter: blur(10px);
+	}
+
+	.SiteHeader h1 {
+		font-size: 54px;
+	}
+}
+
+@media (max-width: 720px) {
+	.SiteHeader p {
+		max-width: 80vw;
+	}
+	.HeroV2header span {
+		color: #131313;
+	}
+	.amazon .bid {
+		display: none;
+	}
+	.HeroV2header {
+		padding-bottom: 0;
+		padding: 100px 0;
+	}
+	.HeroV2wraper h3 {
+		margin: 0;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	.HeroTekst h1 {
+		font-size: 60px;
+	}
+	.Header h1 {
+		font-size: 55px;
+	}
+	.center {
+		padding: 30px;
+	}
+}
